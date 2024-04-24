@@ -139,7 +139,7 @@
 					</div>
 					<div class="col">
 						<div class="card">
-							<img src="./assets/img/Highly-Qualified-Faculty.jpg" class="card-img-top p-2" style="border-radius: 15px;" alt="...">
+							<img src="./assets/img/StudentSupportServices.webp" class="card-img-top p-2" style="border-radius: 15px;" alt="...">
 							<div class="card-body">
 								<h5 class="card-title px-3 py-1 text-white" style="background-color: #233857; border-radius:10px;">Card title</h5>
 								<img src="./Rectangle 7.svg" class="img-fluid w-50" alt="">
@@ -151,7 +151,7 @@
 					</div>
 					<div class="col">
 						<div class="card">
-							<img src="./assets/img/Highly-Qualified-Faculty.jpg" class="card-img-top p-2" style="border-radius: 15px;" alt="...">
+							<img src="./assets/img/Up-to-date-Curriculum.jpg" class="card-img-top p-2" style="border-radius: 15px;" alt="...">
 							<div class="card-body">
 								<h5 class="card-title px-3 py-1 text-white" style="background-color: #233857; border-radius:10px;">Card title</h5>
 								<img src="./Rectangle 7.svg" class="img-fluid w-50" alt="">
@@ -163,7 +163,7 @@
 					</div>
 					<div class="col">
 						<div class="card">
-							<img src="./assets/img/Highly-Qualified-Faculty.jpg" class="card-img-top p-2" style="border-radius: 15px;" alt="...">
+							<img src="./assets/img/StudentFriendlyCulture.webp" class="card-img-top p-2" style="border-radius: 15px;" alt="...">
 							<div class="card-body">
 								<h5 class="card-title px-3 py-1 text-white" style="background-color: #233857; border-radius:10px;">Card title</h5>
 								<img src="./Rectangle 7.svg" class="img-fluid w-50" alt="">
