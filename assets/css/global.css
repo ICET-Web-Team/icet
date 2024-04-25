@@ -26,12 +26,20 @@ ul {
   color: var(--white) !important;
 }
 
+.text-grey {
+  color: var(--grey) !important;
+}
+
 .bg-grey {
   background-color: var(--grey) !important;
 }
 
 .bg-red {
   background-color: var(--red) !important;
+}
+
+.bg-white {
+  background-color: var(--white) !important;
 }
 
 /* body {
