@@ -1,11 +1,37 @@
+:root {
+  --grey: #6b6a70;
+  --white: #f8f3eb;
+  --red: #c32338;
+}
+
 html,
 body {
-  background-color: #f8f3eb;
-  color: #484847;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--white);
+  color: var(--grey);
 }
 
 * {
   font-family: "Lexend", sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ul {
+  list-style-type: none !important;
+}
+
+.text-white {
+  color: var(--white) !important;
+}
+
+.bg-grey {
+  background-color: var(--grey) !important;
+}
+
+.bg-red {
+  background-color: var(--red) !important;
 }
 
 /* body {
