@@ -1,8 +1,17 @@
+html,
 body {
-  font-family: "DM Sans", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
+  width: 100vw;
+  height: 100vh;
   background-color: #f8f3eb;
   color: #484847;
-  padding-bottom: 5rem;
 }
+
+* {
+  font-family: "Lexend", sans-serif;
+}
+
+/* body {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 5rem;
+} */
