@@ -1,7 +1,9 @@
 :root {
   --grey: #6b6a70;
   --white: #f8f3eb;
+  --black: #090909;
   --red: #c32338;
+  --light-grey: #ebebeb;
 }
 
 html,
@@ -26,8 +28,8 @@ ul {
   color: var(--white) !important;
 }
 
-.text-grey {
-  color: var(--grey) !important;
+.text-black {
+  color: var(--black) !important;
 }
 
 .bg-grey {
@@ -40,6 +42,10 @@ ul {
 
 .bg-white {
   background-color: var(--white) !important;
+}
+
+.bg-light-grey {
+  background-color: var(--light-grey) !important;
 }
 
 /* body {
