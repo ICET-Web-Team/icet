@@ -19,6 +19,11 @@ const academicCalendar = `<h3 class="fw-bold mb-4">ACADEMIC CALENDAR</h3>
   <h5 class="mb-3">Academic Calenders for each course may vary.</h5>
 </div>`;
 
+const howToPay = `<h3 class="fw-bold mb-4">HOW TO PAY</h3>`;
+const refundAndWithdrawal = `<h3 class="fw-bold mb-4">REFUND AND WITHDRAWAL</h3>`;
+const scholarships = `<h3 class="fw-bold mb-4">SCHOLARSHIPS</h3>`;
+const studyLoans = `<h3 class="fw-bold mb-4">STUDY LOANS</h3>`;
+
 detailSection.innerHTML = academicCalendar;
 
 function addActive(event) {
@@ -27,3 +32,34 @@ function addActive(event) {
     })
     event.target.classList.add('active');
 }
+
+const btnTuitionFees = document.getElementById('btn-tuition-fees');
+const btnHowToPay = document.getElementById('btn-how-to-pay');
+const btnRefundAndWithdrawal = document.getElementById('btn-refund-and-withdrawal');
+const btnScholarships = document.getElementById('btn-scholarships');
+const btnStudyLoans = document.getElementById('btn-study-loans');
+
+btnTuitionFees.addEventListener("click", (event) => {
+    addActive(event);
+    detailSection.innerHTML = academicCalendar;
+});
+
+btnHowToPay.addEventListener("click", (event) => {
+    addActive(event);
+    detailSection.innerHTML = howToPay;
+});
+
+btnRefundAndWithdrawal.addEventListener("click", (event) => {
+    addActive(event);
+    detailSection.innerHTML = refundAndWithdrawal;
+});
+
+btnScholarships.addEventListener("click", (event) => {
+    addActive(event);
+    detailSection.innerHTML = scholarships;
+});
+
+btnStudyLoans.addEventListener("click", (event) => {
+    addActive(event);
+    detailSection.innerHTML = studyLoans;
+});
