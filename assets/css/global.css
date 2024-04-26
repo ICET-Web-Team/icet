@@ -1,7 +1,7 @@
 :root {
   --grey: #6b6a70;
-  --white: #f8f3eb;
-  --black: #090909;
+  --milk-white: #f8f3eb;
+  --pit-black: #090909;
   --red: #c32338;
   --light-grey: #ebebeb;
 }
@@ -10,7 +10,7 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  background-color: var(--white);
+  background-color: var(--milk-white);
   color: var(--grey);
 }
 
@@ -24,12 +24,12 @@ ul {
   list-style-type: none !important;
 }
 
-.text-white {
-  color: var(--white) !important;
+.text-milk-white {
+  color: var(--milk-white) !important;
 }
 
-.text-black {
-  color: var(--black) !important;
+.text-pit-black {
+  color: var(--pit-black) !important;
 }
 
 .bg-grey {
@@ -40,8 +40,8 @@ ul {
   background-color: var(--red) !important;
 }
 
-.bg-white {
-  background-color: var(--white) !important;
+.bg-milk-white {
+  background-color: var(--milk-white) !important;
 }
 
 .bg-light-grey {
