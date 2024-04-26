@@ -18,16 +18,10 @@
       crossorigin="anonymous"
     />
 
-    <script
-      src="https://kit.fontawesome.com/9398afa8b6.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/course.css" />
   </head>
   <body>
-    <section class="w-100 h-75">
+    <section class="w-100 h-75" id="course-section">
       <div class="row h-100 w-100">
         <div
           class="col-lg-4 col-xl-6 col-xxl-6 col-md-2 h-100 d-none d-lg-block"
@@ -50,11 +44,11 @@
               the readable content of a page when looking at its layout.
             </h5>
             <ul
-              class="d-flex flex-column gap-3 gap-lg-3 gap-md-3 gap-sm-3 mb-xxl-4 mb-xl-3 mb-lg-3 mb-md-4 mb-sm-4 mb-4"
+              class="d-flex flex-column gap-3 gap-lg-3 gap-md-3 gap-sm-3 mb-xxl-4 mb-xl-3 mb-lg-3 mb-md-4 mb-sm-4 mb-4 hide"
             >
               <li>
                 <button
-                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1"
+                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1 active"
                   onclick="addActive(event)"
                 >
                   <div class="fs-5">Tuition Fees</div>
@@ -128,7 +122,11 @@
                 class="d-flex justify-content-between align-items-center bg-red text-milk-white pt-2 pb-2 pe-3 ps-3 fw-bold w-75 border-0 rounded-2"
               >
                 <div>MORE DETAILS</div>
-                <div><i class="fa-solid fa-arrow-right-long"></i></div>
+                <img
+                  class="img-arrow"
+                  src="./assets/img/long-arrow.svg"
+                  alt="arrow"
+                />
               </button>
             </div>
           </div>
@@ -138,23 +136,7 @@
             class="d-flex flex-column w-100 h-100 bg-milk-white text-pit-black p-4"
             id="detail-section"
           >
-            <h3 class="fw-bold mb-4">ACADEMIC CALENDAR</h3>
-            <div class="d-flex flex-column gap-3 mb-3">
-              <div>
-                <h4 class="fw-bold mb-3">First Semester:</h4>
-                <h5 class="mb-3">August-December</h5>
-                <div class="w-100 bg-light-grey" style="height: 2px"></div>
-              </div>
-              <div>
-                <h4 class="fw-bold mb-3">Second Semester:</h4>
-                <h5 class="mb-3">January-May</h5>
-                <div class="w-100 bg-light-grey" style="height: 2px"></div>
-              </div>
-            </div>
-            <div>
-              <h4 class="fw-bold mb-3">Note:</h4>
-              <h5 class="mb-3">Academic Calenders for each course may vary.</h5>
-            </div>
+            <!-- Details Section -->
           </div>
         </div>
       </div>
