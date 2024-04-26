@@ -24,6 +24,7 @@
     ></script>
 
     <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/course.css" />
   </head>
   <body>
     <section class="w-100 h-75">
@@ -52,44 +53,79 @@
               class="d-flex flex-column gap-3 gap-lg-3 gap-md-3 gap-sm-3 mb-xxl-4 mb-xl-3 mb-lg-3 mb-md-4 mb-sm-4 mb-4"
             >
               <li>
-                <div class="d-flex justify-content-between mb-lg-1">
+                <button
+                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1"
+                  onclick="addActive(event)"
+                >
                   <div class="fs-5">Tuition Fees</div>
-                  <div><i class="fa-solid fa-arrow-right-long"></i></div>
-                </div>
+                  <img
+                    class="img-arrow"
+                    src="./assets/img/long-arrow.svg"
+                    alt="arrow"
+                  />
+                </button>
                 <div class="w-100 bg-milk-white" style="height: 2px"></div>
               </li>
               <li>
-                <div class="d-flex justify-content-between mb-lg-1">
+                <button
+                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1"
+                  onclick="addActive(event)"
+                >
                   <div class="fs-5">How to Pay</div>
-                  <div><i class="fa-solid fa-arrow-right-long"></i></div>
-                </div>
+                  <img
+                    class="img-arrow"
+                    src="./assets/img/long-arrow.svg"
+                    alt="arrow"
+                  />
+                </button>
                 <div class="w-100 bg-milk-white" style="height: 2px"></div>
               </li>
               <li>
-                <div class="d-flex justify-content-between mb-lg-1">
+                <button
+                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1"
+                  onclick="addActive(event)"
+                >
                   <div class="fs-5">Refund and Withdrawal</div>
-                  <div><i class="fa-solid fa-arrow-right-long"></i></div>
-                </div>
+                  <img
+                    class="img-arrow"
+                    src="./assets/img/long-arrow.svg"
+                    alt="arrow"
+                  />
+                </button>
                 <div class="w-100 bg-milk-white" style="height: 2px"></div>
               </li>
               <li>
-                <div class="d-flex justify-content-between mb-lg-1">
+                <button
+                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1"
+                  onclick="addActive(event)"
+                >
                   <div class="fs-5">Scholarships</div>
-                  <div><i class="fa-solid fa-arrow-right-long"></i></div>
-                </div>
+                  <img
+                    class="img-arrow"
+                    src="./assets/img/long-arrow.svg"
+                    alt="arrow"
+                  />
+                </button>
                 <div class="w-100 bg-milk-white" style="height: 2px"></div>
               </li>
               <li>
-                <div class="d-flex justify-content-between mb-lg-1">
+                <button
+                  class="d-flex text-milk-white bg-transparent border-0 w-100 justify-content-between align-items-center mb-lg-1"
+                  onclick="addActive(event)"
+                >
                   <div class="fs-5">Study Loans</div>
-                  <div><i class="fa-solid fa-arrow-right-long"></i></div>
-                </div>
+                  <img
+                    class="img-arrow"
+                    src="./assets/img/long-arrow.svg"
+                    alt="arrow"
+                  />
+                </button>
                 <div class="w-100 bg-milk-white" style="height: 2px"></div>
               </li>
             </ul>
             <div>
               <button
-                class="d-flex justify-content-between bg-red text-milk-white pt-2 pb-2 pe-3 ps-3 fw-bold w-75 border-0 rounded-2"
+                class="d-flex justify-content-between align-items-center bg-red text-milk-white pt-2 pb-2 pe-3 ps-3 fw-bold w-75 border-0 rounded-2"
               >
                 <div>MORE DETAILS</div>
                 <div><i class="fa-solid fa-arrow-right-long"></i></div>
@@ -100,6 +136,7 @@
         <div class="col-lg-4 col-md-6 col-xl-3 col-md-5">
           <div
             class="d-flex flex-column w-100 h-100 bg-milk-white text-pit-black p-4"
+            id="detail-section"
           >
             <h3 class="fw-bold mb-4">ACADEMIC CALENDAR</h3>
             <div class="d-flex flex-column gap-3 mb-3">
@@ -127,5 +164,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/course.js"></script>
   </body>
 </html>
