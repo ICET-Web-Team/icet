@@ -27,10 +27,10 @@ const studyLoans = `<h3 class="fw-bold mb-4">STUDY LOANS</h3>`;
 detailSection.innerHTML = academicCalendar;
 
 function addActive(event) {
-    listItems.forEach(item => {
-        item.classList.remove('active');
-    })
-    event.target.classList.add('active');
+  listItems.forEach(item => {
+    item.classList.remove('active');
+  })
+  event.target.classList.add('active');
 }
 
 const btnTuitionFees = document.getElementById('btn-tuition-fees');
@@ -40,26 +40,29 @@ const btnScholarships = document.getElementById('btn-scholarships');
 const btnStudyLoans = document.getElementById('btn-study-loans');
 
 btnTuitionFees.addEventListener("click", (event) => {
-    addActive(event);
-    detailSection.innerHTML = academicCalendar;
+  addActive(event);
+  detailSection.innerHTML = academicCalendar;
 });
 
 btnHowToPay.addEventListener("click", (event) => {
-    addActive(event);
-    detailSection.innerHTML = howToPay;
+  addActive(event);
+  detailSection.innerHTML = howToPay;
 });
 
 btnRefundAndWithdrawal.addEventListener("click", (event) => {
-    addActive(event);
-    detailSection.innerHTML = refundAndWithdrawal;
+  addActive(event);
+  detailSection.innerHTML = refundAndWithdrawal;
 });
 
 btnScholarships.addEventListener("click", (event) => {
-    addActive(event);
-    detailSection.innerHTML = scholarships;
+  addActive(event);
+  detailSection.innerHTML = scholarships;
 });
 
 btnStudyLoans.addEventListener("click", (event) => {
-    addActive(event);
-    detailSection.innerHTML = studyLoans;
+  addActive(event);
+  detailSection.innerHTML = studyLoans;
 });
+
+const courseCardBackDetailSection = document.getElementById('course-card-back-details');
+courseCardBackDetailSection.innerHTML = academicCalendar;

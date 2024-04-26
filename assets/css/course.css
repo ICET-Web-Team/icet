@@ -66,3 +66,32 @@
 .hide {
   list-style-type: none !important;
 }
+
+#course-container {
+  position: relative;
+  perspective: 1000px;
+}
+
+#course-card {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+/* #course-container:hover #course-card {
+  transform: rotateY(-180deg);
+} */
+
+.back-active {
+  transform: rotateY(-180deg);
+}
+
+#course-card-front,
+#course-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+#course-card-back {
+  transform: rotateY(180deg);
+}
