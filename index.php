@@ -337,10 +337,50 @@
 				</div>
 			</div>
 		</main>
-		
+
 	</main>
 	<footer>
-		<!-- place footer here -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-12">
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<div class="container">
+						<div class="row my-4 mb-2">
+							<div class="col-md-8">
+								<h4>Have Any Questions?</h4>
+								<p>Enter your email address and we will get back to you as soon as possible
+								</p>
+							</div>
+							<div class="col-md-4">
+								<form action="" method="post">
+									<div class="row">
+										<div class="col-md-8">
+											<input type="email" name="" class="form-control" id="" placeholder="Enter email here" >
+										</div>
+										<div class="col-md-4">
+											<button type="submit" class="btn btn-success">SUBMIT</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<hr>
+					<div class="container">
+					<br>
+					<p style="font-size: smaller;"> &copy; 2024 iCET. All Rights Reserved </p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 	<!-- Bootstrap JavaScript Libraries -->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
