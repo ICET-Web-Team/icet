@@ -66,3 +66,32 @@
 .hide {
   list-style-type: none !important;
 }
+
+#course-container {
+  position: relative;
+}
+
+#course-card {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  perspective: 800px;
+}
+
+#course-container:hover #course-card {
+  transform: rotateY(180deg);
+}
+
+#course-card-back,
+#course-card-front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+#course-card-back {
+  transform: rotateY(180deg);
+}
+
+#course-section .row {
+  min-height: 580px;
+}
