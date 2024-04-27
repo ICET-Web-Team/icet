@@ -44,8 +44,6 @@ function addActive(event) {
   event.target.classList.add('active');
 }
 
-
-
 btnTuitionFees.addEventListener("click", (event) => {
   if (isScreenSmall()) {
     courseCardBackDetails.innerHTML = academicCalendar;
@@ -102,5 +100,5 @@ btnCourseCardBack.addEventListener('click', (event) => {
 })
 
 function isScreenSmall() {
-  return window.innerWidth <= 575;
+  return window.innerWidth < 768;
 }
