@@ -1,5 +1,7 @@
 const detailSection = document.getElementById('detail-section');
 const listItems = document.querySelectorAll('li button');
+const courseCard = document.getElementById('course-card');
+const courseCardBackDetails = document.getElementById('course-card-back-details');
 
 const academicCalendar = `
 <h3 class="fw-bold mb-4">ACADEMIC CALENDAR</h3>
@@ -43,28 +45,40 @@ const btnStudyLoans = document.getElementById('btn-study-loans');
 
 btnTuitionFees.addEventListener("click", (event) => {
   addActive(event);
+  courseCardBackDetails.innerHTML = academicCalendar;
+  courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = academicCalendar;
 });
 
 btnHowToPay.addEventListener("click", (event) => {
   addActive(event);
+  courseCardBackDetails.innerHTML = howToPay;
+  courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = howToPay;
 });
 
 btnRefundAndWithdrawal.addEventListener("click", (event) => {
   addActive(event);
+  courseCardBackDetails.innerHTML = refundAndWithdrawal;
+  courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = refundAndWithdrawal;
 });
 
 btnScholarships.addEventListener("click", (event) => {
   addActive(event);
+  courseCardBackDetails.innerHTML = scholarships;
+  courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = scholarships;
 });
 
 btnStudyLoans.addEventListener("click", (event) => {
   addActive(event);
+  courseCardBackDetails.innerHTML = studyLoans;
+  courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = studyLoans;
 });
 
-const courseCardBackDetails = document.getElementById('course-card-back-details');
-courseCardBackDetails.innerHTML = academicCalendar;
+const btnCourseCardBack = document.getElementById('btn-course-card-back');
+btnCourseCardBack.addEventListener('click', (event) => {
+  courseCard.classList.remove('course-card-back-active');
+})

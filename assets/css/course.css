@@ -86,7 +86,7 @@
   perspective: 800px;
 }
 
-#course-card {
+.course-card-back-active {
   transform: rotateY(180deg);
 }
 
