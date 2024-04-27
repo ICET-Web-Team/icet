@@ -46,35 +46,35 @@ const btnStudyLoans = document.getElementById('btn-study-loans');
 btnTuitionFees.addEventListener("click", (event) => {
   addActive(event);
   courseCardBackDetails.innerHTML = academicCalendar;
-  courseCard.classList.add('course-card-back-active');
+  if (isScreenSmall()) courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = academicCalendar;
 });
 
 btnHowToPay.addEventListener("click", (event) => {
   addActive(event);
   courseCardBackDetails.innerHTML = howToPay;
-  courseCard.classList.add('course-card-back-active');
+  if (isScreenSmall()) courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = howToPay;
 });
 
 btnRefundAndWithdrawal.addEventListener("click", (event) => {
   addActive(event);
   courseCardBackDetails.innerHTML = refundAndWithdrawal;
-  courseCard.classList.add('course-card-back-active');
+  if (isScreenSmall()) courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = refundAndWithdrawal;
 });
 
 btnScholarships.addEventListener("click", (event) => {
   addActive(event);
   courseCardBackDetails.innerHTML = scholarships;
-  courseCard.classList.add('course-card-back-active');
+  if (isScreenSmall()) courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = scholarships;
 });
 
 btnStudyLoans.addEventListener("click", (event) => {
   addActive(event);
   courseCardBackDetails.innerHTML = studyLoans;
-  courseCard.classList.add('course-card-back-active');
+  if (isScreenSmall()) courseCard.classList.add('course-card-back-active');
   detailSection.innerHTML = studyLoans;
 });
 
@@ -82,3 +82,7 @@ const btnCourseCardBack = document.getElementById('btn-course-card-back');
 btnCourseCardBack.addEventListener('click', (event) => {
   courseCard.classList.remove('course-card-back-active');
 })
+
+function isScreenSmall() {
+  return window.innerWidth <= 575;
+}
