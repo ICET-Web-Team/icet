@@ -6,7 +6,7 @@
   --light-grey: #ebebeb;
 }
 
-#course-section * {
+#financial-aid-section * {
   font-family: "Lexend", sans-serif;
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@
   border-color: var(--red) !important;
 }
 
-#course-section li button {
+#financial-aid-section li button {
   cursor: pointer;
   transition: 0.3s ease-out;
 }
@@ -53,16 +53,16 @@
   color: black !important;
 }
 
-#course-section button:hover {
+#financial-aid-section button:hover {
   opacity: 0.8;
   transition: 0.3s ease-out;
 }
 
-#course-section button * {
+#financial-aid-section button * {
   pointer-events: none;
 }
 
-#course-section li button:hover {
+#financial-aid-section li button:hover {
   color: black;
 }
 
@@ -75,31 +75,31 @@
   list-style-type: none !important;
 }
 
-#course-container {
+#financial-aid-container {
   position: relative;
 }
 
-#course-card {
+#financial-aid-card {
   position: absolute;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
   perspective: 800px;
 }
 
-.course-card-back-active {
+.financial-aid-card-back-active {
   transform: rotateY(180deg);
 }
 
-#course-card-back,
-#course-card-front {
+#financial-aid-card-back,
+#financial-aid-card-front {
   position: absolute;
   backface-visibility: hidden;
 }
 
-#course-card-back {
+#financial-aid-card-back {
   transform: rotateY(180deg);
 }
 
-#course-section .row {
+#financial-aid-section .row {
   min-height: 580px;
 }

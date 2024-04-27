@@ -1,7 +1,7 @@
 const detailSection = document.getElementById('detail-section');
 const listItems = document.querySelectorAll('li button');
-const courseCard = document.getElementById('course-card');
-const courseCardBackDetails = document.getElementById('course-card-back-details');
+const financialAidCard = document.getElementById('financial-aid-card');
+const financialAidCardBackDetails = document.getElementById('financial-aid-card-back-details');
 const btnTuitionFees = document.getElementById('btn-tuition-fees');
 const btnHowToPay = document.getElementById('btn-how-to-pay');
 const btnRefundAndWithdrawal = document.getElementById('btn-refund-and-withdrawal');
@@ -46,8 +46,8 @@ function addActive(event) {
 
 btnTuitionFees.addEventListener("click", (event) => {
   if (isScreenSmall()) {
-    courseCardBackDetails.innerHTML = academicCalendar;
-    courseCard.classList.add('course-card-back-active');
+    financialAidCardBackDetails.innerHTML = academicCalendar;
+    financialAidCard.classList.add('financial-aid-card-back-active');
     return;
   }
   addActive(event);
@@ -56,8 +56,8 @@ btnTuitionFees.addEventListener("click", (event) => {
 
 btnHowToPay.addEventListener("click", (event) => {
   if (isScreenSmall()) {
-    courseCardBackDetails.innerHTML = howToPay;
-    courseCard.classList.add('course-card-back-active');
+    financialAidCardBackDetails.innerHTML = howToPay;
+    financialAidCard.classList.add('financial-aid-card-back-active');
     return;
   }
   addActive(event);
@@ -66,8 +66,8 @@ btnHowToPay.addEventListener("click", (event) => {
 
 btnRefundAndWithdrawal.addEventListener("click", (event) => {
   if (isScreenSmall()) {
-    courseCardBackDetails.innerHTML = refundAndWithdrawal;
-    courseCard.classList.add('course-card-back-active');
+    financialAidCardBackDetails.innerHTML = refundAndWithdrawal;
+    financialAidCard.classList.add('financial-aid-card-back-active');
     return;
   }
   addActive(event);
@@ -76,8 +76,8 @@ btnRefundAndWithdrawal.addEventListener("click", (event) => {
 
 btnScholarships.addEventListener("click", (event) => {
   if (isScreenSmall()) {
-    courseCardBackDetails.innerHTML = scholarships;
-    courseCard.classList.add('course-card-back-active');
+    financialAidCardBackDetails.innerHTML = scholarships;
+    financialAidCard.classList.add('financial-aid-card-back-active');
     return;
   }
   addActive(event);
@@ -86,17 +86,17 @@ btnScholarships.addEventListener("click", (event) => {
 
 btnStudyLoans.addEventListener("click", (event) => {
   if (isScreenSmall()) {
-    courseCardBackDetails.innerHTML = studyLoans;
-    courseCard.classList.add('course-card-back-active');
+    financialAidCardBackDetails.innerHTML = studyLoans;
+    financialAidCard.classList.add('financial-aid-card-back-active');
     return;
   }
   addActive(event);
   detailSection.innerHTML = studyLoans;
 });
 
-const btnCourseCardBack = document.getElementById('btn-course-card-back');
+const btnCourseCardBack = document.getElementById('btn-financial-aid-card-back');
 btnCourseCardBack.addEventListener('click', (event) => {
-  courseCard.classList.remove('course-card-back-active');
+  financialAidCard.classList.remove('financial-aid-card-back-active');
 })
 
 function isScreenSmall() {
