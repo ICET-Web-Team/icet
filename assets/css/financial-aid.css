@@ -1,0 +1,105 @@
+:root {
+  --grey: #6b6a70;
+  --milk-white: #f8f3eb;
+  --pit-black: #090909;
+  --red: #c32338;
+  --light-grey: #ebebeb;
+}
+
+#financial-aid-section * {
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.text-milk-white {
+  color: var(--milk-white) !important;
+}
+
+.text-pit-black {
+  color: var(--pit-black) !important;
+}
+
+.text-red {
+  color: var(--red) !important;
+}
+
+.bg-grey {
+  background-color: var(--grey) !important;
+}
+
+.bg-red {
+  background-color: var(--red) !important;
+}
+
+.bg-milk-white {
+  background-color: var(--milk-white) !important;
+}
+
+.bg-light-grey {
+  background-color: var(--light-grey) !important;
+}
+
+.border-red {
+  border-color: var(--red) !important;
+}
+
+#financial-aid-section li button {
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.active {
+  color: black !important;
+}
+
+#financial-aid-section button:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-out;
+}
+
+#financial-aid-section button * {
+  pointer-events: none;
+}
+
+#financial-aid-section li button:hover {
+  color: black;
+}
+
+.img-arrow {
+  height: 20px;
+  width: 20px;
+}
+
+.hide {
+  list-style-type: none !important;
+}
+
+#financial-aid-container {
+  position: relative;
+}
+
+#financial-aid-card {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  perspective: 800px;
+}
+
+.financial-aid-card-back-active {
+  transform: rotateY(180deg);
+}
+
+#financial-aid-card-back,
+#financial-aid-card-front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+#financial-aid-card-back {
+  transform: rotateY(180deg);
+}
+
+#financial-aid-section .row {
+  min-height: 580px;
+}
