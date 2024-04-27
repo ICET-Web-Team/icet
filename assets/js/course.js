@@ -65,3 +65,6 @@ btnStudyLoans.addEventListener("click", (event) => {
   addActive(event);
   detailSection.innerHTML = studyLoans;
 });
+
+const courseCardBackDetails = document.getElementById('course-card-back-details');
+courseCardBackDetails.innerHTML = academicCalendar;

@@ -20,6 +20,10 @@
   color: var(--pit-black) !important;
 }
 
+.text-red {
+  color: var(--red) !important;
+}
+
 .bg-grey {
   background-color: var(--grey) !important;
 }
@@ -34,6 +38,10 @@
 
 .bg-light-grey {
   background-color: var(--light-grey) !important;
+}
+
+.border-red {
+  border-color: var(--red) !important;
 }
 
 #course-section li button {
@@ -78,7 +86,7 @@
   perspective: 800px;
 }
 
-#course-container:hover #course-card {
+#course-card {
   transform: rotateY(180deg);
 }
 
