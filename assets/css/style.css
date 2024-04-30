@@ -4,7 +4,7 @@
 			font-family: "DM Sans", sans-serif;
 			font-size: 1rem;
 			line-height: 1.5;
-			background-color: #f8f3eb;
+			background-color: #efefef;
 			color: #484847;
 			padding-bottom: 5rem;
 		}
@@ -326,9 +326,19 @@
 
 
 		/***** End Section *****/
+/* font */
 
-
+  
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+		.slideFont {
+			font-family: "Montserrat", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 500;
+			font-style: normal;
+		  }
+
 
 		.philosopher-regular {
 			font-family: "Philosopher", sans-serif;
@@ -452,3 +462,44 @@
 		a {
 			font-size: 13px;
 		}
+
+		/* Course */
+		  
+		  ul.hide {
+			list-style-type: none !important;
+		  }
+		  
+		  .text-milk-white {
+			color: var(--milk-white) !important;
+		  }
+		  
+		  .text-pit-black {
+			color: var(--pit-black) !important;
+		  }
+		  
+		  .bg-grey {
+			background-color: var(--grey) !important;
+		  }
+		  
+		  .bg-red {
+			background-color: var(--red) !important;
+		  }
+		  
+		  .bg-milk-white {
+			background-color: var(--milk-white) !important;
+		  }
+		  
+		  .bg-light-grey {
+			background-color: var(--light-grey) !important;
+		  }
+		  /* Couses */
+
+		  ul.a {
+			list-style-type: circle;
+		  }
+		  .text-eco{
+			color: #00984a;
+		  }
+		  .card-bdy{
+			height: 140px;
+		  }
