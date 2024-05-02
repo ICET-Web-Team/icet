@@ -1,0 +1,30 @@
+.card-vision{
+    background-color: rgba(210, 236, 254, 0.892);
+    border-radius: 5px 20px 5px 20px;
+    padding: 2%;
+}
+
+.vision-para{
+    background-color: rgb(141, 203, 222);
+}
+
+.header-vision{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.text-color-h1-vision{
+    color: green;
+}
+
+.text-h1{
+    color: rgb(37, 82, 166);
+}
+
+.text-color-vision{
+    color: rgb(63, 62, 62);
+}
+
+.main-container-vision{
+    width:100%;
+}
