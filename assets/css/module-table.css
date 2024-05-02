@@ -1,0 +1,33 @@
+:root {
+  --module-table-grey: #e8e8e8;
+  --module-table-green: #23844e;
+  --module-table-blue: #224ff7;
+}
+
+.module-table-section * {
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.module-table thead {
+  border-top: var(--module-table-grey) 2px solid !important;
+}
+
+.module-table-name * {
+  background-color: var(--module-table-grey) !important;
+  color: var(--module-table-green) !important;
+}
+
+.module-table-header * {
+  color: var(--module-table-green) !important;
+}
+
+.module-table-row * {
+  color: var(--module-table-blue) !important;
+}
+
+.module-table-container {
+  border-left: var(--module-table-grey) 2px solid !important;
+  border-right: var(--module-table-grey) 2px solid !important;
+}
