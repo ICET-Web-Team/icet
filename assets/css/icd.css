@@ -1,0 +1,46 @@
+.image-icd{
+    object-fit: cover;
+    width: 5%;
+}
+
+.h3-icd-topic{
+    color: green;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.image-icd-main{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.bg{
+    
+    background-color:rgb(232, 231, 231);
+}
+
+
+.text-color{
+    color: rgb(32, 41, 78);
+}
+
+.text-color-entry{
+    color: rgb(43, 84, 160);
+}
+.text-re{
+    font-size:medium;
+    color: rgb(121, 125, 125);
+}
+.border-icd{
+    border: 2px solid rgb(34, 71, 121);
+    border-radius: 15px;
+}
+
+.image-potrait-icd{
+    width: 10%;
+    object-fit: cover;
+}
+
