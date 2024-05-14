@@ -1,0 +1,11 @@
+:root {
+  --resources-section-grey: #e8e8e8;
+  --resources-section-green: #23844e;
+  --resources-section-blue: #224ff7;
+}
+
+.resources-section * {
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
+}
