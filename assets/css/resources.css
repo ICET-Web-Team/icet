@@ -2,16 +2,44 @@
   --resources-section-grey: #6b7280;
   --resources-section-green: #23844e;
   --resources-section-blue: #224ff7;
+  --resources-section-black: #111827;
 }
 
 .resources-section {
   font-size: 20px;
+  color: var(--resources-section-black);
 }
 
 .resources-section * {
-  font-family: "Lexend", sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.resources-section .gap-5 {
+  row-gap: 6rem !important;
+}
+
+.resources-section ul {
+  list-style-position: inside;
+  list-style-image: url(/assets/img/circle_tick.svg);
+}
+
+.resources-section li span {
+  position: relative;
+  left: 15px;
+}
+
+.resources-section li + li {
+  margin-top: 15px;
+}
+
+.resources-section h1 {
+  font-size: 42px;
+}
+
+.resources-section h2 {
+  font-size: 36px;
 }
 
 .resources-section .row {
@@ -19,10 +47,9 @@
 }
 
 .resources-section .header-description {
-  color: var(--resources-section-grey);
   width: 60%;
 }
 
-.resources-section ul {
-  list-style-position: inside;
+.text-resources-section-grey {
+  color: var(--resources-section-grey);
 }

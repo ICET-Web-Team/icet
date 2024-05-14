@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>FontAwesome-Circle-Check-icon</title>
+	<defs>
+		<image  width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAAXNSR0IB2cksfwAAAIRQTFRFIk/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3Ik/3ts0pyAAAACx0Uk5TABtckr3d8vyTXRwTcsz+/xSU9faVBnwq0FPzbP3R0vpZYFTVW1XUYlb79BpRH+7zAAAB8klEQVR4nJ2WWVPCMBSFc0hZZNF2RmQYfHB98v//FtdxfMEFdKiWIij1mhCgaZsg8U4mHdL75RzSbGD5gApGRB4wKbzO/mzIXGLrIjAvtAPwkWjZiwIPb2QG2pgnBYMyuEdDA9DBp+gJBQVZ1emlAHQxhhVgTXrKAT1ERjuraFE/A/Qi1ZlNQZRWXwO6/ONPYDd5WgMdHm/0o6KRvCyBNp+sOtugIMYqGSrgYMq2AlhtsAAQmL9XMfiIJLD/TVsqoDQSgM/nWwP8JwRr8k0uaA+hNt+SMVgLsCsEeGDHb2kzRah7sPfv83tRn76mghFKTWZVUPnsdJi2jVGrWIFA5Z8NtOYYXsPqp3IrHyeJvkZjlHd0hTZ/XvtZ5Y901U9UahrQvWZn36Hys87P2JyiWkv1OjeiOv8KbX5ECKCaKiwAQYwsfkSZZS0d3CmC7Vwt+6ccMEW5rg+MSjznq/zC0E3g1fVRChTB0v+bU5iANzIfLiWknyIQo9TKfa4lYfIjQk6+3NTo0ZU+/jmFyDC9g/IdO6LQtIDk9DYsIPLp3TLn5QLyS0lWYdMSncWip+DHbRMQ28x8S+DwktRGNjMbLkR18M+t0nkzdt/u3Q8U9yPL/VB0P3blwb7fN9qxHOwiLh6drg4yHC8nqkW7/nwR5V//AnTD9ni4obZzAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
