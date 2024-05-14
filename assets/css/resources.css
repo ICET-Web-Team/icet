@@ -14,10 +14,15 @@
   padding: 0;
 }
 
-.resources-section .header {
-  width: 40%;
+.resources-section .row {
+  max-height: 70vh;
 }
 
 .resources-section .header-description {
   color: var(--resources-section-grey);
+  width: 60%;
+}
+
+.resources-section ul {
+  list-style-position: inside;
 }
